@@ -1,0 +1,9 @@
+.long-explanation {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  transition: height 0.3s ease;
+}
+
+.long-explanation:hover {
+  height: auto;
+}

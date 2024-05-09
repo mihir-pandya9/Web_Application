@@ -1,0 +1,890 @@
+const DietMorinig = [
+  {
+    img: "https://images.onlymyhealth.com//imported/images/2022/June/01_Jun_2022/mainfenugreek.jpg",
+    name: "Overnight Soaked Methi Water",
+    amount: "1 Glass",
+    kcal: 0,
+    ml: 250,
+  },
+  {
+    img: "https://cdn1.bodycatalyst.com.au/uploads/2020/11/Lemon-Water-1.jpg",
+    name: "Lukewarm Water With Lemon",
+    amount: "1 Glass",
+    kcal: 4,
+    ml: 250,
+  },
+  {
+    img: "https://uknews.co.in/wp-content/uploads/2023/06/17-2.jpg",
+    name: "Warm Water",
+    amount: "1 Glass",
+    kcal: 0,
+    ml: 250,
+  },
+  {
+    img: "https://c.ndtvimg.com/2021-05/904hm72o_coriander_625x300_04_May_21.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675?im=FaceCrop,algorithm=dnn,width=1200,height=886",
+    name: "Coriander Seeds Water",
+    amount: "1 Glass",
+    kcal: 0,
+    ml: 250,
+  },
+  {
+    img: "https://pinchandswirl.com/wp-content/uploads/2020/11/Cucumber-Lemon-Mint-Water_sq.jpg",
+    name: "Cucumber And Lime Water",
+    amount: "1 Glass",
+    kcal: 0,
+    ml: 250,
+  },
+  {
+    img: "https://images.healthshots.com/healthshots/hi/uploads/2021/12/09170157/carom-seeds-water-weight-loss.jpg",
+    name: "Carom Seeds Water",
+    amount: "1 Glass",
+    kcal: 6,
+    ml: 250,
+  },
+  {
+    img: "https://www.archanaskitchen.com/images/archanaskitchen/beverages/Simple_Lemon_Tea_Recipe_400.jpg",
+    name: "Lemon Tea",
+    amount: "1 Cup",
+    kcal: 2,
+    ml: 200,
+  },
+  {
+    img: "https://gingerandseasalt.com/wp-content/uploads/2022/09/ginger-turmeric-tea-honey-720x1080.jpg",
+    name: "Ginger Turmeric Tea",
+    amount: "1 Cup",
+    kcal: 2,
+    ml: 200,
+  },
+  {
+    img: "https://veenaazmanov.com/wp-content/uploads/2017/01/Spiced-Ginger-Tea-for-Cold-and-Soar-Throats7.jpg",
+    name: "Ginger Cinnamon Tea",
+    amount: "1 Cup",
+    kcal: 3,
+    ml: 200,
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzsHzV9kPLHy2gPmfzu_e0p95QnZFwEpajTw&usqp=CAU",
+    name: "Ginger water",
+    amount: "1 Glass",
+    kcal: 1,
+    ml: 250,
+  },
+  {
+    img: "https://img.onmanorama.com/content/dam/mm/en/food/special-diet/images/2019/12/28/rosemary-tea.jpg",
+    name: "Rosemary Tea",
+    amount: "1 Cup",
+    kcal: 0,
+    ml: 150,
+  },
+  {
+    img: "https://img.onmanorama.com/content/dam/mm/en/food/special-diet/images/2019/12/28/rosemary-tea.jpg",
+    name: "Tulsi Tea",
+    amount: "1 Cup",
+    kcal: 0,
+    ml: 150,
+  },
+  {
+    img: "https://media.post.rvohealth.io/wp-content/uploads/2020/09/Copper-Cup-Water-732x549-Thumbnail.jpg",
+    name: "Copper Charged Water",
+    amount: "1 Cup",
+    kcal: 0,
+    ml: 250,
+  },
+];
+
+//--------------------------------------------->
+
+const BeforeBreakfast = [
+  {
+    img: "https://rita.com.vn/images/2021/Despite_its_small_size_basil_seed_has_many_benefits_for_your_health.jpg",
+    name: "Basil Seed And Lemon Juice",
+    amount: "1 Glass",
+    kcal: 34,
+    ml: 250,
+  },
+  {
+    img: "https://static.toiimg.com/thumb/52669777.cms?imgsize=443622&width=800&height=800",
+    name: "Mixed Vegetable juice of Choice",
+    amount: "1 Glass",
+    kcal: 55,
+    ml: 250,
+  },
+  {
+    img: "https://www.alphafoodie.com/wp-content/uploads/2022/08/Beetroot-Juice-square-500x500.jpeg",
+    name: "BeetRoot / Tomato / Carrot Juice",
+    amount: "1 Glass",
+    kcal: 57,
+    ml: 250,
+  },
+  {
+    img: "https://www.archanaskitchen.com/images/archanaskitchen/beverages/Green_tea_recipe.jpg",
+    name: "Green Tea",
+    amount: "1 Cup",
+    kcal: 0,
+    ml: 200,
+  },
+  {
+    img: "https://www.24mantra.com/wp-content/uploads/2020/09/7-824-465.png",
+    name: "Wheat Grass Amla Juice",
+    amount: "1 Shot",
+    kcal: 2,
+    ml: 50,
+  },
+  {
+    img: "https://cheresohealth.com/wp-content/uploads/2017/08/side-effect-of-green-coffee1.jpg",
+    name: "Green Coffee",
+    amount: "1 Cup",
+    kcal: 8,
+    ml: 250,
+  },
+  {
+    img: "https://images.herzindagi.info/image/2020/Apr/cloves-laung-chai.jpg",
+    name: "Clove Tea",
+    amount: "1 Cup",
+    kcal: 0,
+    ml: 150,
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHvHouSMrSmArKRx2WSOHyS8y3C6KKBXLEKQ&usqp=CAU",
+    name: "Tea With Skimmed Milk Without Sugar",
+    amount: "1 Cup",
+    kcal: 29,
+    ml: 200,
+  },
+  {
+    img: "https://5.imimg.com/data5/UA/SO/MY-12758161/fresh-cow-milk.jpeg",
+    name: "Cow Milk",
+    amount: "1 Cup",
+    kcal: 134,
+    ml: 200,
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxZk7BE5maIjwD_uHq0WABm32mw-EotmnWBQ&usqp=CAU",
+    name: "Buffalo Milk",
+    amount: "1 Cup",
+    kcal: 215,
+    ml: 200,
+  },
+  {
+    img: "https://images.healthshots.com/healthshots/en/uploads/2023/08/25160403/jaggery-tea.jpg",
+    name: "jaggery Tea",
+    amount: "1 Cup",
+    kcal: 215,
+    ml: 200,
+  },
+  {
+    img: "https://breweda.com/cdn/shop/articles/Ashwagandha_tea.jpg?v=1677848370",
+    name: "Ashwagandha Tea",
+    amount: "1 Cup",
+    kcal: 6,
+    ml: 200,
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAbbSee_euK8cYGuZDrWMxQHdsl4ffOn84NQ&usqp=CAU",
+    name: "Berries Smoothie",
+    amount: "1 Glass",
+    kcal: 189,
+    ml: 250,
+  },
+  {
+    img: "https://c.ndtvimg.com/2023-02/3bk3ja8o_jeera-water_625x300_07_February_23.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350",
+    name: "Black Cumin Seeds Water",
+    amount: "1 Glass",
+    kcal: 2,
+    ml: 250,
+  },
+];
+
+//--------------------------------------->
+
+const DietNuts = [
+  {
+    img: "https://c.ndtvimg.com/2023-02/3bk3ja8o_jeera-water_625x300_07_February_23.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350",
+    name: "Overnight Soaked 6 Almonds + 2 Walnuts",
+    amount: "7 piece",
+    kcal: 73,
+  },
+  {
+    img: "https://c.ndtvimg.com/2023-02/3bk3ja8o_jeera-water_625x300_07_February_23.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350",
+    name: "Brazil Nuts",
+    amount: "2 piece",
+    kcal: 65,
+  },
+  {
+    img: "https://static.toiimg.com/photo/79532169.cms",
+    name: "Pistachio",
+    amount: "7 piece",
+    kcal: 28,
+  },
+  {
+    img: "https://media.post.rvohealth.io/wp-content/uploads/2020/09/raisins-732x549-thumbnail-732x549.jpg",
+    name: "Raisins",
+    amount: "10 piece",
+    kcal: 10,
+  },
+  {
+    img: "https://english.cdn.zeenews.com/sites/default/files/2023/10/06/1294149-figs.jpg",
+    name: "Soaked Figs",
+    amount: "3 piece",
+    kcal: 36,
+  },
+  {
+    img: "https://static.india.com/wp-content/uploads/2022/02/WhatsApp-Image-2022-02-07-at-4.23.28-PM.jpeg?impolicy=Medium_Resize&w=1200&h=800",
+    name: "Over Night Soaked Almonds",
+    amount: "7 piece",
+    kcal: 49,
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS12uGwAVE06FA7E98Xiecj268TG7lmq3p4G1K38BvHTo2u_EMjgGwauzPvftLI744xyjU&usqp=CAU",
+    name: "Peanuts",
+    amount: "1 tbsp",
+    kcal: 85,
+  },
+  {
+    img: "https://m.media-amazon.com/images/I/61CwGqIRZrL.jpg",
+    name: "Dry Dates",
+    amount: "2 Piece",
+    kcal: 50,
+  },
+  {
+    img: "https://m.media-amazon.com/images/I/81dQJsWmuEL._AC_UF1000,1000_QL80_.jpg",
+    name: "Dry Apricots",
+    amount: "4 Piece",
+    kcal: 80,
+  },
+  {
+    img: "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/13/06/07/pic4s82KK.jpg",
+    name: "Boiled Peanuts",
+    amount: "1 tbsp",
+    kcal: 48,
+  },
+];
+
+//------------------------------------------------->
+
+const BreakFast = [
+  {
+    img: "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2018/Moong_Dal_Cheela_Stuffed_With_Paneer_Recipe-4.jpg",
+    name: "Paneer Stuffed Green Moong Chila",
+    amount: "1.5 Piece",
+    kcal: 284,
+  },
+  {
+    img: "https://i.ytimg.com/vi/p7i_vzhN2Xc/maxresdefault.jpg",
+    name: "Oats Vegetable Chilla + Green Chutney",
+    amount: "2 Piece",
+    kcal: 172,
+  },
+  {
+    img: "https://hattyfoods.com/wp-content/uploads/2021/05/Instant-Oats-Idli-recipe-500x500.jpg",
+    name: "Oats Idli",
+    amount: "2 Piece",
+    kcal: 194,
+  },
+  {
+    img: "https://pipingpotcurry.com/wp-content/uploads/2022/11/Paneer-Paratha-Piping-Pot-Curry-500x500.jpg",
+    name: "Paneer Stuffed Roti",
+    amount: "2 Piece",
+    kcal: 200,
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4gkd1Xg78kLGjje3Tk_i563lB3TrCf3_ZoA&usqp=CAU",
+    name: "Jawar Bajra Methi Dhebra",
+    amount: "2 Piece",
+    kcal: 224,
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC1hQOHxrrv9mICAHeSbYs359zisuDuQ-t1O0Hc_Xie568r9O4FUKAE4-sYBsW4MRi4Y4&usqp=CAU",
+    name: "Vegetable Paneer Upma",
+    amount: "1 Bowl",
+    kcal: 212,
+  },
+  {
+    img: "https://i.pinimg.com/736x/e9/92/12/e992120b49444b9d073843ba81dc07cc.jpg",
+    name: "Vegetable Oats With Paneer",
+    amount: "2 Bowl",
+    kcal: 272,
+  },
+  {
+    img: "https://cdn1.foodviva.com/static-content/food-images/diabetic-food/ragi-dosa/ragi-dosa.jpg",
+    name: "Ragi Dosa",
+    amount: "2 Piece",
+    kcal: 274,
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCvXDR5j4DSiHKKBJzwr_OcaBJ7mFup5D-SQ&usqp=CAU",
+    name: "Sprouts Dosa",
+    amount: "1 Piece",
+    kcal: 87,
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCRu7cig9eIkY6bOViVqtsgSWw-JKX14QxoA&usqp=CAUhttps://static01.nyt.com/images/2021/06/07/dining/kc-grilled-tofu/merlin_188793726_1f3be280-a783-4157-ae41-c8a64a8785b7-articleLarge.jpg",
+    name: "Grilled Tofu And Stir Fry Veggies",
+    amount: "1.5 Bowl",
+    kcal: 210,
+  },
+  {
+    img: "https://images.immediate.co.uk/production/volatile/sites/30/2023/02/Greek-yogurt-7722171.jpg?quality=90&resize=440,400https://static.toiimg.com/photo/75220490.cms",
+    name: "Greek Yogurt",
+    amount: "1/2 Bowl",
+    kcal: 81,
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuGYbi3xnYemQLMotqHx0VuI60sfLmcT809g&usqp=CAU",
+    name: "Soya Chunks Chaat",
+    amount: "1 Cup",
+    kcal: 161,
+  },
+  {
+    img: "https://www.indianveggiedelight.com/wp-content/uploads/2019/08/keto_dosa-1-360x361.jpg",
+    name: "Keto Almond Flour Dosa",
+    amount: "1 Piece",
+    kcal: 177,
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsyoU48mGGXVzbdhRtzEYW3CXM2NEZRS7qS-D8N9OApz2uky6LWS-dkqTWretmZhJFuak&usqp=CAU",
+    name: "Cauliflower Upma",
+    amount: "1 Bowl",
+    kcal: 99,
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQboHoXWd8-ZU2bNhLr7ATqETNvM85-D_7iej8_ztUsDCrM5JS2Xhu69olBLbXhTvt5wqo&usqp=CAU",
+    name: "Ragi Chilla + Sambhar",
+    amount: "2 Piece",
+    kcal: 245,
+  },
+  {
+    img: "https://i.pinimg.com/736x/e9/92/12/e992120b49444b9d073843ba81dc07cc.jpg",
+    name: "Oats Khichdi",
+    amount: "1 Bowl",
+    kcal: 111,
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrs0MPe8marPTmUKTX16d2-bBi82VemNEiSfPBAQYu_SNN7XJOlmOVdaikSPc-4_n9T3s&usqp=CAU",
+    name: "Tofu Roasted",
+    amount: "1 Bowl",
+    kcal: 183,
+  },
+  {
+    img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEim68vlPGUxyp-HATj-JmVuhsT_cT0yWKfYDNmL3eN5wEfc9ujwBVBCyfwG3g6WPml2EGaSqMVgwd5W5WDSszgoOOw6e8gV_P3OK1ZuQoJAoYfmQrj49kIYxJNx8-HSun03vS57uLKkFdOE/s400/_MG_0133.JPG",
+    name: "Khichu (Without Oil)",
+    amount: "1 plate",
+    kcal: 243,
+  },
+  {
+    img: "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2019/Instant_Sooji_Oats_Dhokla_Recipe_Video_For_Breakfast_Evening_Snack_15_1600.jpg",
+    name: "Oats dhokla",
+    amount: "2 Piece",
+    kcal: 45,
+  },
+  {
+    img: "https://img-global.cpcdn.com/recipes/a982d9e4f6ebb1c0/1200x630cq70/photo.jpg",
+    name: "Methi Stuffed Roti",
+    amount: "2 Piece",
+    kcal: 204,
+  },
+  {
+    img: "https://mitalideliciouskitchen.com/wp-content/uploads/2021/06/chana-dal-khaman-dhokla-Vati-Dal-Na-Khaman-Surti-Khaman-22.jpg",
+    name: "Chana Dal Dhokla",
+    amount: "2 Piece",
+    kcal: 51,
+  },
+  {
+    img: "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202307/istockphoto-1205482290-612x612-sixteen_nine-_3.jpg?VersionId=AlAk4lx3IvilsrbpTmUls0UEQrMj2e9O&size=690:388",
+    name: "Masala Dosa With Sambar",
+    amount: "1 Piece",
+    kcal: 204,
+  },
+  {
+    img: "https://pulses.org/images/com_yoorecipe/cropped-khaman.jpg",
+    name: "Khaman",
+    amount: "2 Piece",
+    kcal: 108,
+  },
+  {
+    img: "https://www.healthifyme.com/blog/wp-content/uploads/2023/05/shutterstock_1573943506-1.jpg",
+    name: "Masala Oats",
+    amount: "2 Bowl",
+    kcal: 188,
+  },
+  {
+    img: "https://www.shutterstock.com/image-photo/traditional-indian-breadaloo-paratha-potato-600nw-308308949.jpg",
+    name: "Stuffed Onion Paratha",
+    amount: "1 Piece",
+    kcal: 153,
+  },
+  {
+    img: "https://myheartbeets.com/wp-content/uploads/2018/07/dahi-vada-paleo-indian-appetizer.jpg",
+    name: "Dahi Vada",
+    amount: "2 Piece",
+    kcal: 42,
+  },
+];
+
+//------------------------------------------------>
+
+const Lunch_Salad = [
+  {
+    img: "https://www.foodandwine.com/thmb/fXxrmE1S0gOPvoa-su5G-ZxyIFc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/FAW-recipes-cucumber-salad-hero-ac62fb2274a144aeb3089a5280c436ec.jpg",
+    name: "Cucumber Salad",
+    amount: "1 Pieace",
+    kcal: 13,
+  },
+  {
+    img: "https://www.foodandwine.com/thmb/fXxrmE1S0gOPvoa-su5G-ZxyIFc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/FAW-recipes-cucumber-salad-hero-ac62fb2274a144aeb3089a5280c436ec.jpg",
+    name: "Beetroot And Cucumber Salad",
+    amount: "1/2 Bowl",
+    kcal: 21,
+  },
+  {
+    img: "https://www.allrecipes.com/thmb/mhb6JYreJFowyl9P1D2Ub9EaMx4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/237984-marinated-cucumber-onion-and-tomato-salad-DDMFS-4x3-6bc28384ef344d7ca6459b4fefa3b019.jpg",
+    name: "Cucumber Tomato Onion Salad",
+    amount: "1 quarter plate",
+    kcal: 88,
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMur3G14tSZbViqy1HeTACSvlOQhnZTlNRj7sJEtkJG7HjZkL8nB66FEGfVUwe4hTRV2o&usqp=CAU",
+    name: "Carrot And Cabbage Salad",
+    amount: "1/2 Bowl",
+    kcal: 31,
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6-iQGaCBvhGJrrcWWcJNZX5PYlmdUtx_RdA&usqp=CAU",
+    name: "Lettuce",
+    amount: "2 piece",
+    kcal: 13,
+  },
+  {
+    img: "https://www.recipetineats.com/wp-content/uploads/2022/07/The-Best-Tomato-Salad_0.jpg",
+    name: "Tomato Salad",
+    amount: "2 piece",
+    kcal: 17,
+  },
+  {
+    img: "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/12/24/0/FNM_010120-Shaved-Turnip-Salad_s4x3.jpg.rend.hgtvcom.826.620.suffix/1577211989495.jpeg",
+    name: "Turnip Salad",
+    amount: "2 piece",
+    kcal: 37,
+  },
+  {
+    img: "https://unpeeledjournal.com/wp-content/uploads/2021/10/51585845328_6f4293fd61_b.jpg",
+    name: "Carrot Salad",
+    amount: "2 piece",
+    kcal: 39,
+  },
+  {
+    img: "https://storables.com/wp-content/uploads/2023/09/how-to-store-daikon-radish-1695540354.jpg",
+    name: "Radish Salad",
+    amount: "2 piece",
+    kcal: 19,
+  },
+  {
+    img: "https://storables.com/wp-content/uploads/2023/09/how-to-store-daikon-radish-1695540354.jpg",
+    name: "Cabbage apple Salad",
+    amount: "1 Bowl",
+    kcal: 91,
+  },
+  {
+    img: "https://static.toiimg.com/thumb/58716164.cms?imgsize=96258&width=800&height=800",
+    name: "Onion Raw Mango Salad",
+    amount: "1/2 Bowl",
+    kcal: 48,
+  },
+];
+
+// ------------------------------------------------>
+
+const Lunch_Veggie = [
+  {
+    img: "https://img.jamieoliver.com/jamieoliver/recipe-database/0Isr-A6OaOj9ABr96L08eT.jpg?tr=w-800,h-1066",
+    name: "Chickpeas Curry",
+    amount: "1 Bowl",
+    kcal: 196,
+  },
+  {
+    img: "https://www.vegrecipesofindia.com/wp-content/uploads/2021/05/rajma-recipe-1.jpg",
+    name: "Rajma Curry / Kidney Beans Curry",
+    amount: "1 Bowl",
+    kcal: 149,
+  },
+  {
+    img: "https://img.taste.com.au/56r_iNcB/w720-h480-cfill-q80/taste/2016/11/indian-style-vegetable-curry-59371-1.jpeg",
+    name: "Vegetable Curry",
+    amount: "1 Bowl",
+    kcal: 89,
+  },
+  {
+    img: "https://www.indianveggiedelight.com/wp-content/uploads/2023/01/kala-chana-curry-recipe-1.jpg",
+    name: "kala Chana Curry / Black Chickpea",
+    amount: "1 Bowl",
+    kcal: 92,
+  },
+  {
+    img: "https://i.ytimg.com/vi/nNWv7sms9Jk/maxresdefault.jpg",
+    name: "Valor Papdi Curry",
+    amount: "1 Bowl",
+    kcal: 116,
+  },
+  {
+    img: "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2020/Rajasthani_Dal_Panchmel_Dal_recipe_4_1600.jpg",
+    name: "Panchratan Dal",
+    amount: "1 Bowl",
+    kcal: 138,
+  },
+  {
+    img: "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/nithya.anantham/Punjabi_Lobia_Masala_Recipe_Punjabi_Style_Black_Eyed_Peas_Curry.jpg",
+    name: "Lobia Sabzi",
+    amount: "1 Bowl",
+    kcal: 184,
+  },
+  {
+    img: "https://www.puvi.co/uploaded_images/1687761916.jpeg",
+    name: "Aloo Curry",
+    amount: "1 Bowl",
+    kcal: 148,
+  },
+  {
+    img: "https://www.indianveggiedelight.com/wp-content/uploads/2020/09/instant-pot-Paneer_butter_masala-1152x1536.jpg",
+    name: "Paneer Makhani",
+    amount: "1 Bowl",
+    kcal: 224,
+  },
+  {
+    img: "https://thumbs.dreamstime.com/b/sev-bhaji-or-shev-sabji-kathiyavadi-dhaba-style-gathiya-nu-shaak--spicy-sweet-tangy-tomato-curry-topped-193588338.jpg",
+    name: "Sev Tomato Sabji",
+    amount: "1 Bowl",
+    kcal: 93,
+  },
+  {
+    img: "https://www.funfoodfrolic.com/wp-content/uploads/2023/04/Dal-Makhani-1.jpg",
+    name: "Dal Makhni / Black Urad Dal",
+    amount: "1 Bowl",
+    kcal: 179,
+  },
+  {
+    img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkwcqdArwdYZcZkt009xr-ugoM7fGhR8KU0FelWbsciv6d_L7ZbSrrPHRg7Dx0jCPMlpXi9u2-HjqYFenmVf5NrqOjaxke5h0jYO9XXv_tdM55gVJKWEYUQSAGM_wpStthLvK2OfyOCGQ/s1600/Karuvepilai+rasam_opt.jpg",
+    name: "Curry Leaves Rasam",
+    amount: "1 Bowl",
+    kcal: 40,
+  },
+  {
+    img: "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/shaheen_ali/Lehsuniya__Lasaniya_Batata_Gujrati_Grlic_Potato_Curry.jpg",
+    name: "Garlic Potato Curry",
+    amount: "1 Bowl",
+    kcal: 100,
+  },
+  {
+    img: "https://maayeka.com/wp-content/uploads/2013/10/sambhar-recipe-restaurant-style-1.jpg",
+    name: "Sambhar",
+    amount: "1 Bowl",
+    kcal: 114,
+  },
+  {
+    img: "https://www.indianveggiedelight.com/wp-content/uploads/2021/06/palak-tofu.jpg",
+    name: "Palak Tofu",
+    amount: "1 Bowl",
+    kcal: 106,
+  },
+  {
+    img: "https://soyummyrecipes.com/wp-content/uploads/2023/01/Whole-masoor-dal.jpg.webp",
+    name: "Masoor Dal",
+    amount: "1 Bowl",
+    kcal: 105,
+  },
+  {
+    img: "https://vismaifood.com/storage/app/uploads/public/cc8/cbe/902/thumb__700_0_0_0_auto.jpg",
+    name: "Bhindi Stew",
+    amount: "1 Bowl",
+    kcal: 97,
+  },
+];
+
+// --------------------------------------------------->
+const Lunch_Base = [
+  {
+    img: "https://arpitasfoodpod.com/wp-content/uploads/2021/11/ABD07939-1F47-4174-9B1D-F9FD34D32981.jpeg",
+    name: "Methi Thepla",
+    amount: "1 Piece",
+    kcal: 116,
+  },
+  {
+    img: "https://www.marthastewart.com/thmb/R5e-wnZBjNbvQiYmd1CtBQTFcVY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/924877_master-recipe-brown-rice-05-13126d75658249b48e7c9ac32d180ab2.jpg",
+    name: "Brown Rice",
+    amount: "1 Bowl",
+    kcal: 135,
+  },
+  {
+    img: "https://www.healthyishandhappy.com/wp-content/uploads/2022/03/FullSizeRender-61-1536x1229.jpg",
+    name: "Almond Flour Roti + 1/2 tsp Ghee",
+    amount: "1 Piece",
+    kcal: 201,
+  },
+  {
+    img: "https://pointedkitchen.com/wp-content/uploads/2019/02/egg-fried-cauliflower-rice.jpg",
+    name: "Cauliflower Rice",
+    amount: "1 Bowl",
+    kcal: 134,
+  },
+  {
+    img: "https://www.cookwithnabeela.com/wp-content/uploads/2024/02/Chapati.webp",
+    name: "Wheat Bran Chapati",
+    amount: "1 Piece",
+    kcal: 73,
+  },
+  {
+    img: "https://curryfoodie.com/wp-content/uploads/2021/07/Curry-Foodies-Lubna-Plain-Boiled-Rice.jpg",
+    name: "Boiled Rice / White Plain Rice",
+    amount: "1 Bowl",
+    kcal: 146,
+  },
+  {
+    img: "https://tiffinandteaofficial.com/wp-content/uploads/2019/02/IMG_3710-1-e1580862779575.jpg",
+    name: "Bajra / Milet Chapati",
+    amount: "1 Bowl",
+    kcal: 146,
+  },
+  {
+    img: "https://tiffinandteaofficial.com/wp-content/uploads/2019/02/IMG_3710-1-e1580862779575.jpg",
+    name: "Bajra / Milet Chapati",
+    amount: "1 piece",
+    kcal: 104,
+  },
+  {
+    img: "https://www.indianveggiedelight.com/wp-content/uploads/2019/04/IMG_6711.jpg",
+    name: "Radish Thepla",
+    amount: "1 piece",
+    kcal: 69,
+  },
+  {
+    img: "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2018/Multigrain_Thepla_Recipe_Ragi_Whole_Wheat_Diabetic_Roti-5.jpg",
+    name: "Multigrain Methi Thepla",
+    amount: "1 piece",
+    kcal: 98,
+  },
+  {
+    img: "https://veenaazmanov.com/wp-content/uploads/2018/06/One-Pot-Vegetable-Rice-2.jpg",
+    name: "Steamed Vegetable Rice",
+    amount: "1 Bowl",
+    kcal: 143,
+  },
+  {
+    img: "https://www.whiskaffair.com/wp-content/uploads/2017/09/Multigrain-Roti-1.jpg",
+    name: "Multigrain Roti",
+    amount: "1 Piece",
+    kcal: 83,
+  },
+  {
+    img: "https://ministryofcurry.com/wp-content/uploads/2022/05/Jowar-Rotis-2.jpg",
+    name: "Jawar Roti",
+    amount: "1 Piece",
+    kcal: 77,
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpf2gwcGtM7cVSQookrtuv3d746GxVN3pNAckbQs4FyVemgitq",
+    name: "Ragi Roti + 1/2 tsp Ghee",
+    amount: "1 Piece",
+    kcal: 109,
+  },
+  {
+    img: "https://static.toiimg.com/thumb/56097918.cms?width=1200&height=900",
+    name: "Corn Flour Chapati",
+    amount: "1 Piece",
+    kcal: 162,
+  },
+];
+
+//----------------------------------------------------->
+
+const Evening_Snak = [
+  {
+    img: "https://www.budgetbytes.com/wp-content/uploads/2023/09/Roasted-Tomato-Soup-bowl-500x500.jpg",
+    name: "Tomato Soup",
+    amount: "1 Bowl",
+    kcal: 48,
+    ml: 200,
+  },
+  {
+    img: "https://recipesofhome.com/wp-content/uploads/2020/03/vegetable-soup-recipe.jpg",
+    name: "Mix Vegetable Soup",
+    amount: "1 Bowl",
+    kcal: 67,
+    ml: 200,
+  },
+  {
+    img: "https://d27pcll2dx97vv.cloudfront.net/info/wp-content/uploads/2018/07/Ginger-Black-Tea-1pc.jpg",
+    name: "Ginger Black Tea",
+    amount: "1 cup",
+    kcal: 3,
+    ml: 150,
+  },
+  {
+    img: "https://www.archanaskitchen.com/images/archanaskitchen/beverages/Green_tea_recipe.jpg",
+    name: "Green Tea",
+    amount: "1 Cup",
+    kcal: 0,
+    ml: 200,
+  },
+  {
+    img: "https://www.24mantra.com/wp-content/uploads/2020/09/7-824-465.png",
+    name: "Wheat Grass Amla Juice",
+    amount: "1 Shot",
+    kcal: 2,
+    ml: 50,
+  },
+  {
+    img: "https://cheresohealth.com/wp-content/uploads/2017/08/side-effect-of-green-coffee1.jpg",
+    name: "Green Coffee",
+    amount: "1 Cup",
+    kcal: 8,
+    ml: 250,
+  },
+  {
+    img: "https://images.herzindagi.info/image/2020/Apr/cloves-laung-chai.jpg",
+    name: "Clove Tea",
+    amount: "1 Cup",
+    kcal: 0,
+    ml: 150,
+  },
+  {
+    img: "https://www.ambersnaturalnutrition.com/wp-content/uploads/2021/02/liver-detox-soup-with-beets-and-carrot-1024x1024.jpg",
+    name: "Carrot Beetroot Soup",
+    amount: "1 Bowl",
+    kcal: 54,
+    ml: 200,
+  },
+  {
+    img: "https://www.foodbanjo.com/wp-content/uploads/2021/09/chia-seed-green-tea-9871.jpg",
+    name: "Iced Tea With Chia seeds",
+    amount: "1 glass",
+    kcal: 24,
+    ml: 250,
+  },
+  {
+    img: "https://www.cookwithmanali.com/wp-content/uploads/2017/06/Masala-Chaas-Recipe.jpg",
+    name: "Butter Milk",
+    amount: "1 glass",
+    kcal: 46,
+    ml: 250,
+  },
+  {
+    img: "https://img.onmanorama.com/content/dam/mm/en/food/special-diet/images/2019/12/28/rosemary-tea.jpg",
+    name: "Rosemary Tea",
+    amount: "1 Cup",
+    kcal: 0,
+    ml: 150,
+  },
+  {
+    img: "https://img.onmanorama.com/content/dam/mm/en/food/special-diet/images/2019/12/28/rosemary-tea.jpg",
+    name: "Tulsi Tea",
+    amount: "1 Cup",
+    kcal: 0,
+    ml: 150,
+  },
+];
+
+//-------------------------------------------->
+
+const Dinner = [
+  {
+    img: "https://img-global.cpcdn.com/recipes/ec4eeb41c68ef1fd/680x482cq70/crispy-semolina-bread-toast-rava-toast-sooji-toast-recipe-main-photo.webp",
+    name: "Sooji Vegetable Toast / Rava Toast",
+    amount: "2 Piece",
+    kcal: 380,
+  },
+  {
+    img: "https://cdn1.foodviva.com/static-content/food-images/indian-recipes/paneer-pulao-paneer-rice-recipe/paneer-pulao-paneer-rice-recipe.jpg",
+    name: "Matar Paneer Pulao",
+    amount: "1 Bowl",
+    kcal: 180,
+  },
+  {
+    img: "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/06/sabudana-khichdi-recipe.jpg",
+    name: "Sabudana Khichdi",
+    amount: "1 Bowl",
+    kcal: 242,
+  },
+  {
+    img: "https://www.indianhealthyrecipes.com/wp-content/uploads/2012/12/chilli-mushroom-stir-fry-500x500.jpg",
+    name: "Chili Mushroom",
+    amount: "1 Bowl",
+    kcal: 220,
+  },
+  {
+    img: "https://www.whiskaffair.com/wp-content/uploads/2018/11/Brown-Rice-Pulao-2-3.jpg",
+    name: "Brown Rice Pulao",
+    amount: "1 Bowl",
+    kcal: 154,
+  },
+  {
+    img: "https://greenbowl2soul.com/wp-content/uploads/2022/06/paneer-sandwich-500x500.jpg",
+    name: "Paneer Vegetable Sandwich",
+    amount: "1 Piece",
+    kcal: 366,
+  },
+  {
+    img: "https://c.ndtvimg.com/gws/ms/easy-paneer-dosa-recipe/assets/2.jpeg?1661241883",
+    name: "Paneer Dosa",
+    amount: "1 Piece",
+    kcal: 152,
+  },
+  {
+    img: "https://c.ndtvimg.com/gws/ms/easy-paneer-dosa-recipe/assets/2.jpeg?1661241883",
+    name: "Whole Wheat Pasta With Vegetables",
+    amount: "1 Piece",
+    kcal: 152,
+  },
+  {
+    img: "https://www.cookwithmanali.com/wp-content/uploads/2015/07/Restaurant-Style-Recipe-Paneer-Tikka.jpg",
+    name: "Grilled Pepper,Vegetables & Paneer",
+    amount: "1 Stick",
+    kcal: 340.5,
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuGYbi3xnYemQLMotqHx0VuI60sfLmcT809g&usqp=CAU",
+    name: "Soya Chunks Chaat",
+    amount: "1 Cup",
+    kcal: 161,
+  },
+  {
+    img: "https://www.indianveggiedelight.com/wp-content/uploads/2019/08/keto_dosa-1-360x361.jpg",
+    name: "Keto Almond Flour Dosa",
+    amount: "1 Bowl",
+    kcal: 177,
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsyoU48mGGXVzbdhRtzEYW3CXM2NEZRS7qS-D8N9OApz2uky6LWS-dkqTWretmZhJFuak&usqp=CAU",
+    name: "Cauliflower Upma",
+    amount: "1 Bowl",
+    kcal: 99,
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQboHoXWd8-ZU2bNhLr7ATqETNvM85-D_7iej8_ztUsDCrM5JS2Xhu69olBLbXhTvt5wqo&usqp=CAU",
+    name: "Ragi Chilla + Sambhar",
+    amount: "2 Piece",
+    kcal: 245,
+  },
+  {
+    img: "https://i.pinimg.com/736x/e9/92/12/e992120b49444b9d073843ba81dc07cc.jpg",
+    name: "Oats Khichdi",
+    amount: "1 Bowl",
+    kcal: 111,
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrs0MPe8marPTmUKTX16d2-bBi82VemNEiSfPBAQYu_SNN7XJOlmOVdaikSPc-4_n9T3s&usqp=CAU",
+    name: "Tofu Roasted",
+    amount: "1 Bowl",
+    kcal: 183,
+  },
+];
+
+export {
+  DietMorinig,
+  BeforeBreakfast,
+  DietNuts,
+  BreakFast,
+  Lunch_Salad,
+  Lunch_Veggie,
+  Lunch_Base,
+  Evening_Snak,
+  Dinner,
+};
